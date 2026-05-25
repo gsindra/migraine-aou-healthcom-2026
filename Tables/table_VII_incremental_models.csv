@@ -1,0 +1,6 @@
+Model,Feature set,n features,Logistic AUROC,XGBoost AUROC,Δ AUROC (XGB)
+A,Demographics,5,0.505 ± 0.008,0.511 ± 0.01,—
+B,+ Event history,14,0.672 ± 0.016,0.735 ± 0.015,+0.224
+C,+ Wearable means,30,0.674 ± 0.017,0.739 ± 0.012,+0.004
+D,+ Wearable z-scores,46,0.679 ± 0.019,0.737 ± 0.013,-0.002
+E,+ Wearable trajectories,110,0.676 ± 0.019,0.736 ± 0.015,-0.001
